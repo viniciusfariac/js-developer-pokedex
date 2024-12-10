@@ -1,18 +1,21 @@
-* {
-    font-family: 'Roboto', sans-serif;
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f6f8fc;
+.content{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background: url(../img/pokebola.png) no-repeat top right / 60px 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
 }
 
-.content {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
-}
+
 
 @media screen and (min-width: 992px) {
     .content {
